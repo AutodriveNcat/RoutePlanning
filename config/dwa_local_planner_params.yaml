@@ -1,0 +1,13 @@
+DWAPlannerROS:
+  max_vel_x: 1.0
+  min_vel_x: 0.1
+  max_vel_theta: 1.5
+  min_vel_theta: -1.5
+  acc_lim_x: 2.5
+  acc_lim_theta: 3.2
+  xy_goal_tolerance: 0.2
+  yaw_goal_tolerance: 0.1
+  obstacle_range: 2.5
+  path_distance_bias: 32.0
+  goal_distance_bias: 24.0
+  occdist_scale: 0.01

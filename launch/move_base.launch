@@ -1,0 +1,9 @@
+<launch>
+    <!-- Load parameters for move_base -->
+    <rosparam file="$(find a3_astar)/config/dwa_local_planner_params.yaml" command="load"/>
+
+    <!-- Launch the move_base node -->
+    <node name="move_base" pkg="move_base" type="move_base" output="screen">
+        <param name="base_local_planner" value="dwa_local_planner/DWAPlannerROS"/>
+    </node>
+</launch>       

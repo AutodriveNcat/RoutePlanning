@@ -1,0 +1,13 @@
+<launch>
+    <!-- Run localization_publisher.py -->
+    <!-- node name="localization_publisher" pkg="Global_path_planner" type="localization_publisher.py" output="screen" / -->
+
+    <!-- Run hmiguiv4.py -->
+    <node name="hmiguiv4" pkg="Global_path_planner" type="hmiguiv4.py" output="screen" />
+
+    <!-- Run astarv4_utm.py -->
+    <node name="astarv4_utm" pkg="Global_path_planner" type="astarv4_utm.py" output="screen" />
+
+    <!-- Run path_validationv2.py -->
+    <node name="path_validation" pkg="Global_path_planner" type="path_validationv2.py" output="screen" />
+</launch>
