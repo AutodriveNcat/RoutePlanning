@@ -1,0 +1,13 @@
+The following python modules are required:
+utm
+geopy
+folium
+pandas
+openpyxl
+
+Before running launch file:
+have the correct hmi gui excel sheet - line 148 of hmiguiv4.py  - self.data variable
+have the correct lanes file for a star - line 182 of astarv4_utm.py - lanes_file variable
+place holder - have correct location for location of car - lines 23-25 - car_location.latitude, car_location.longitude, and car_location.altitude variables
+gl
+g1gb
